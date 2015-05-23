@@ -5,16 +5,19 @@ Release:	0.1
 License:	GPL
 Group:		Applications/File
 Requires:	awk
+Requires:	bash
 Requires:	coreutils
 Requires:	diffutils
 Requires:	gcc
 Requires:	glibc-devel
 Requires:	grep
 Requires:	gzip
+Requires:	hostname
 Requires:	make
 Requires:	patch
 Requires:	sed >= 4.0
 Requires:	tar >= 1:1.22
+Requires:	util-linux
 Requires:	which
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
