@@ -1,9 +1,9 @@
 Summary:	build essential packages
 Name:		build-essential
 Version:	0.1
-Release:	0.1
+Release:	1
 License:	GPL
-Group:		Applications/File
+Group:		Development/Building
 Requires:	awk
 Requires:	bash
 Requires:	coreutils
